@@ -9,8 +9,3 @@ resource "aws_iam_user" "ccitdev1user"{
 resource "aws_iam_user" "ccitdev2user"{
   name = "ccitdev2"
 }
-
-
-resource "aws_s3_bucket" "ccitbucket2"{
-  bucket = "ccitsebucket2-hcp"
-}
