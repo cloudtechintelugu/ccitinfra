@@ -12,6 +12,5 @@ resource "aws_iam_user" "ccitdev2user"{
 
 
 resource "aws_s3_bucket" "ccitbucket1"{
-
   bucket = "ccitsebucket-hcp"
 }
