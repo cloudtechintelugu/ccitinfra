@@ -11,7 +11,6 @@ resource "aws_iam_user" "ccitdev2user"{
 }
 
 
-resource "aws_instance" "ccitinst1"{
-  ami = "ami-0e12ffc2dd465f6e4"
-  instance_type = "t3.micro"
+resource "aws_s3_bucket" "ccitbucket1"{
+  name = "ccitsebucket-hcp"
 }
